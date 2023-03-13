@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/assets/images/create.png" type="image/png">
+    <link rel="stylesheet" href="/assets/styles/normalize.css" type="text/css">
+    <link rel="stylesheet" href="/style/style.css" type="text/css"> 
+</head>
+   <style> 
+   @media screen and (min-width: 360px) and (max-width: 1200px) { 
+	.footer {
+        display: none;
+    }
+}
+   .menu {
+    text-decoration: none;
+    color: purple;
+    padding: 4px;
+    font-weight: bolder;
+    justify-content: center;
+    display: grid;
+    }
+
+    nav .menu:hover {
+    text-decoration: underline;
+}
+
+#title {
+    display: grid;
+
+}
+.heder,
+.footer {
+    display: grid;
+   
+}
+
+#img {
+    width: 50%;
+
+}
+
+
+.choice {
+    display: grid;
+    justify-content: center;
+    color: rgb(95, 10, 10);
+}
+
+.button {
+    display: grid;
+    grid-template-columns: 150px;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 1vw;
+    margin: 5px;
+}
+
+.event {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% 25% ;
+    gap: 1rem; 
+}
+
+#h2 {
+    display: grid;
+    grid-template-rows: 150px;
+}
+
+        .heder {
+            height: 30vh;
+            width: 100vw;
+        }
+
+        .footer {
+            display: flex;
+            justify-content:space-between;
+            height: 100px;
+        }
+
+        #bts {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .putt {
+            display: grid;
+            max-width: 100%;
+            justify-content: center;
+        }
+
+        .pict {
+            display: grid;
+            grid-template-columns: 100px;
+
+        }
+
+        .but {
+            width: 120px;
+            height: 50px;
+        }
+
+        .ton {
+            display: grid;
+            height: 7vh;
+            width: 10vw;
+            margin: 10px;
+            padding: 4px;
+        }
+
+   </style>
+<body>
+    <header> 
+    <div class="heder">    
+             <img src="/assets/images/log.png" alt="logo"> 
+             <nav class="menu">     
+          <a class="menu" href="schedule.html"> Schedule </a> 
+         <a class="menu" href="speakers.html"> Speakers</a>
+          <a class="menu" href="ticket.html"> Ticket </a> 
+          <a class="menu" href="contact.html"> Contact</a>
+          <button class="menu"> Login</button>
+           </nav>
+         </div>
+        </header>
+        <h1 id="title"> SBS MTV The KPOP Show Ticket Package </h1>
+        <div  style="background-color: aquamarine;">Look no further! Our SBS The Show tickets are the simplest way for you to 
+            experience a live KPOP recording </div> 
+             <div id="bts"><img src="/assets/images/Fold.png" id="img" alt="bts"></div>
+         <div class="choice">
+        <p>Search Event - Konser Jazz </p>
+        <p> Place - Indonesia</p>
+        <p> Time - Waiting for news</p>
+        </div>
+        <div class="button"> <button style="background: mediumvioletred;"> Get Ticket </button></div>
+       <div class="button"> <button style="background: purple;">Learn More </button></div>
+       <div class="event">
+      <img src="/assets/images/Events.png" alt="event">
+      <img src="/assets/images/Event.png" alt="event">
+      <img src="/assets/images/Even.png" alt="event">
+      <img src="/assets/images/Eve.png" alt="event">
+      <img src="/assets/images/Ev.png" alt="event">
+       </div>
+        <div class="putt"> 
+            <h2 id="h2" style="color: blue;"> Make your own Event</h2>
+            <div class="pict"> <img src="/assets/images/create.png"  alt="image"></div>
+            <button class="ton" style="background-color: brown;">Create Events </button>
+        </div>
+         <footer class="footer" style="background: antiquewhite;">
+            <p>
+                Eventick is a global self-service ticketing platform for live experiences
+                that allows anyone to create, share, find and attend events that fuel 
+                their passions and enrich their lives.</p> 
+                <h3> Stay in the loop</h3>
+                <p> Join our mailing list to stay in the loop with our newest for 
+                    Event and concert. </p>
+                    <div>
+                    <label for="email"> Enter your email address </label>
+    <input type="text" id="email">  </div>
+    <button class="but" style="background-color: palevioletred;"> Subscribe Now </button>
+            </footer>
+</body>
+</html>
